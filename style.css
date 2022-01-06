@@ -29,6 +29,7 @@ a {
 
 h1 {
   font-family: "Roboto", sans-serif;
+  color: rgb(156, 66, 5);
 }
 
 h2 {
@@ -39,6 +40,8 @@ img {
   width: 400px;
   height: 200px;
   transition: 0.4s;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 img:hover {
@@ -63,6 +66,7 @@ img:hover {
   float: right;
   margin: 15px;
   height: 310px;
+  border-radius: 20px;
 }
 
 #image-1:hover {
@@ -75,7 +79,7 @@ img:hover {
 }
 
 .post {
-  border: 2px solid rgb(194, 112, 58);
+  border: 2px solid rgb(224, 131, 69);
   border-radius: 10px;
   margin: 10px;
 }
