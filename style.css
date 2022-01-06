@@ -1,4 +1,33 @@
-img{
-    width: 70px;
-    height: 70px;
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@700&family=Noto+Sans:ital@0;1&family=Open+Sans&family=Prompt:wght@200&family=Roboto:wght@700&display=swap");
+
+/* font-family: "Lato", sans-serif; */
+/* font-family: "Roboto", sans-serif; */
+
+#main {
+  display: grid;
+  grid-template-columns: 70% 30%;
+
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+li {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 400px;
+  height: 200px;
 }
