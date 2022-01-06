@@ -70,12 +70,13 @@ img:hover {
   width: 500px;
 }
 
-.sildebar {
-  background: rgb(236, 215, 169);
+.slidebar {
+  background: rgb(245, 233, 206);
 }
 
 .post {
   border: 2px solid rgb(194, 112, 58);
+  border-radius: 10px;
   margin: 10px;
 }
 
@@ -98,5 +99,24 @@ img:hover {
 }
 
 .post > a:hover {
-  color: rgb(196, 122, 74);
+  color: rgb(201, 131, 85);
+}
+
+.content {
+  animation-name: fade-in;
+  animation-duration: 0.2s;
+}
+
+.slidebar {
+  animation-name: fade-in;
+  animation-duration: 0.2s;
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 0;
+  }
+  from {
+    opacity: 1;
+  }
 }
