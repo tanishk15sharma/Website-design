@@ -23,6 +23,10 @@ li {
   font-family: "Lato", sans-serif;
 }
 
+a {
+  font-family: "Lato", sans-serif;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
 }
@@ -54,6 +58,10 @@ img {
   height: 310px;
 }
 
+.sildebar {
+  background: rgb(236, 215, 169);
+}
+
 .post {
   border: 2px solid rgb(194, 112, 58);
   margin: 10px;
@@ -66,4 +74,17 @@ img {
 .post-text {
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.post > a {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: rgb(82, 36, 6);
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.post > a:hover {
+  color: rgb(196, 122, 74);
 }
